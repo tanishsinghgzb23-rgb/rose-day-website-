@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Rose Day Adu 🌹</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Page 1 -->
+<div class="page active" id="page1">
+    <h1>🌹 Happy Rose Day Adu 🌹</h1>
+    <div class="card">
+        <p>Just a small rose 🌹 for someone very special 💖</p>
+        <p class="emoji">🥰💐✨</p>
+        <button class="next" onclick="goTo('page2')">Next ➡️</button>
+    </div>
+</div>
+
+<!-- Page 2 -->
+<div class="page" id="page2">
+    <h1>Will you accept my rose? 🌹</h1>
+    <div class="card">
+        <button class="yes" onclick="goTo('pageYes')">Yes 💖</button>
+        <button class="no" onclick="goTo('pageNo')">No 💔</button>
+    </div>
+</div>
+
+<!-- YES Page -->
+<div class="page" id="pageYes">
+    <h1>You said YES 🥹💞</h1>
+    <div class="card">
+        <p>🌸 Your smile makes my heart skip a beat 😍</p>
+        <p>🌸 This rose carries all my feelings for you 💖🌹</p>
+        <p class="emoji">🥰💫💌</p>
+        <button class="next" onclick="goTo('page4')">Next ➡️</button>
+    </div>
+</div>
+
+<!-- NO Page -->
+<div class="page" id="pageNo">
+    <h1>You said NO 💔</h1>
+    <div class="card">
+        <p>Even if the rose is not accepted 🌹😔</p>
+        <p>My feelings will always stay the same 💭💔</p>
+        <p class="emoji">😢🌧️🥀</p>
+        <button class="next" onclick="goTo('page4')">Next ➡️</button>
+    </div>
+</div>
+
+<!-- Love Letter Page -->
+<div class="page" id="page4">
+    <h1>💌 A Little Love Letter 💌</h1>
+    <div class="card">
+        <p>
+            Adu 🥰,<br><br>
+            You are the reason behind my random smiles 😌💖.<br>
+            Every thought of you makes my heart feel lighter 💫.<br>
+            I tease you a little 😜 but I adore you a lot 💕.<br><br>
+            This rose 🌹 and this letter are my way of saying —<br>
+            you’re really special to me 💌✨
+        </p>
+        <p class="emoji">😘🌹💖🔥</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
